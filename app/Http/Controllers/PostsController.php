@@ -14,8 +14,8 @@ class PostsController extends Controller
   {
    $posts = Post::latest()->get();
    $archives = Post::archives();
-
-   return view('posts.index', compact('posts'));
+   $pagetitle = "blog";
+   return view('posts.index', compact('posts', 'pagetitle'));
   }
 
   public function show(\App\Post $post)

@@ -31,7 +31,10 @@ class User extends Authenticatable
     {
       return $this->hasmany(Post::class);
     }
-
+    public function setPasswordAttribute($password)
+    {
+    $this->attributes['password'] = bcrypt($password);
+    }
     public function publish(Post $post){
       $this->posts()->save($post);
       // Post::create([

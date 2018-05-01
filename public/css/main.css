@@ -1,0 +1,34 @@
+body{font-family: 'El Messiri', sans-serif;}
+h1{font-size:45px;
+letter-spacing:3px;
+font-family: 'Audiowide', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Permanent Marker', cursive;}
+.text-block-div{margin:-1px 5px 0 5px;}
+.card-date{text-align:center;}
+.card-text{text-transform:uppercase;}
+.front{border:2px solid #000000; border-radius:10px;}
+.front .name{border-radius: 0 5px 0 5px;}
+.desc-text{padding:15px;}
+.back{
+  color:#3097D1;
+  border:2px solid #000000;
+  border-radius:10px;
+}
+#para-box-2{top:80vh;}
+#para-box-6 img{width:100%; margin:0;}
+.card-text-title{
+  margin:25px auto;
+  text-transform:uppercase;
+  text-align:center;
+}
+@media only screen and (min-width: 768px) {
+h1{font-size:70px;}
+body{display:block;}
+#para-box-2{top:75vh;}
+}
+
+
+.contact-page div{background-image:url('../img/IMG_1743.jpg'); width: 100%; height: 500px; background-size: cover; background-position: 100%;}
+.blog-page div{background-image:url('../img/IMG_1742.jpg'); width: 100%; height: 500px; background-size: cover; background-position: 100%;}
+div h1{padding:20%; color:white;}

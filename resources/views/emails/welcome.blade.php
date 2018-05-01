@@ -6,6 +6,6 @@
     <title></title>
   </head>
   <body>
-    <h1>Welome to something</h1>
+    <h1>Welome to my site {{ $user->name }}, You may now post comments on my blog</h1>
   </body>
 </html>

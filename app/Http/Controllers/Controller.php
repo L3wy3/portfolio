@@ -12,10 +12,10 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index()
     {
-     return view('layouts.welcome');
+     return view('home.index');
     }
     public function contact()
     {
-      return view('layouts.contact');
+      return view('contact.contact');
     }
 }

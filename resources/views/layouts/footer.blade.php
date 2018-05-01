@@ -1,7 +1,5 @@
 <footer class="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
+    <a href="#" class="link-up">Back to top</a>
   </p>
 </footer>
 
@@ -13,11 +11,21 @@
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/holder.js"></script>
+<script src="js/main.js"></script>
 <script>
   Holder.addTheme('thumb', {
     bg: '#55595c',
     fg: '#eceeef',
     text: 'Thumbnail'
+  });
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
   });
 </script>
 
