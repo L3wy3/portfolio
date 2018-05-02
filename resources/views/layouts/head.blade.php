@@ -18,6 +18,7 @@
   <link href="../css/blog.css" rel="stylesheet">
   <link href="../css/main.css" rel="stylesheet">
   <link href="../css/app.css" rel="stylesheet">
+  <link href="../css/media-q.css" rel="stylesheet">
   <title>Laravel</title>
 
   <!-- Fonts -->

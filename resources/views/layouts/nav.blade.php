@@ -1,7 +1,7 @@
 <div class="nav-div">
   <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="/">Home</a>
+<a class="navbar-brand padding-l-50" href="/">Home</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -19,7 +19,7 @@
 <li class="nav-item">
 <a class="nav-link" href="/contact">Contact</a>
 </li>
-<div style="position:absolute;right:0;display:inline-flex;">
+<div style="position:absolute;right:50px;display:inline-flex;">
 @if (Auth::check())
 <li class="nav-item">
 <a class="nav-link" href="/blog">{{ Auth::user()->name }}</a>

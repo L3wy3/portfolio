@@ -1,0 +1,9 @@
+@media only screen and (min-width: 500px) {
+  .nav-div{position: fixed;}
+  .banner-img{height: 250px;}
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-div{position: fixed;}
+  .banner-img{height: 420px;}
+}
