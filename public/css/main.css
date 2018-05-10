@@ -15,6 +15,7 @@ font-family: 'Permanent Marker', cursive;}
   border:2px solid #000000;
   border-radius:10px;
 }
+#para-box-2{background-image: url('img/background.jpg');}
 #para-box-2{top:80vh;}
 #para-box-6 img{width:100%; margin:0;}
 .card-text-title{
