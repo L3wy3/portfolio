@@ -11,7 +11,11 @@
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/holder.js"></script>
-<script src="js/main.js"></script>
+<?php if($pagetitle == 'homepage '){?>
+<script src="../js/main.js"></script>
+<?php } ?>
+<script src="../js/scroll.js"></script>
+<script src="../js/app.js"></script>
 <script>
   Holder.addTheme('thumb', {
     bg: '#55595c',
