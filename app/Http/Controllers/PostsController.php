@@ -12,7 +12,7 @@ class PostsController extends Controller
   }
   public function index()
   {
-   $posts = Post::latest()->get();
+   $posts = Post::latest()->paginate(3);
    $archives = Post::archives();
    $pagetitle = "blog";
    return view('posts.index', compact('posts', 'pagetitle'));
@@ -20,8 +20,11 @@ class PostsController extends Controller
 
   public function show(\App\Post $post)
   {
+    $previous = Post::where('id', '<' ,$post->id)->first();
+    $next = Post::where('id', '>', $post->id)->first();
+    $pagetitle = "blog";
     $archives = Post::archives();
-   return view('posts.show', compact('post'));
+   return view('posts.show', compact('post', 'pagetitle', 'previous', 'next'));
   }
 
   public function create()

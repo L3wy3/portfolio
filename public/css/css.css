@@ -68,3 +68,5 @@
   width:50px;
   background-color:white;
 }
+.carousel-caption{ackground-color:rgba(0,0,0,0.5); border-radius:5px;}
+.lang-block img{width:30px;}

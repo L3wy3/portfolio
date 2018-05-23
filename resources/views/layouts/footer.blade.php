@@ -11,7 +11,7 @@
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/holder.js"></script>
-<?php if($pagetitle == 'homepage '){?>
+<?php if(isset($pagetitle) == 'homepage'){?>
 <script src="../js/main.js"></script>
 <?php } ?>
 <script src="../js/scroll.js"></script>

@@ -12,7 +12,8 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index()
     {
-     return view('home.index');
+     $pagetitle = "homepage";
+     return view('home.index', compact('pagetitle'));
     }
     public function contact()
     {

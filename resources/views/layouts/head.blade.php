@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
 
-  <title>Blog Template for Bootstrap</title>
+  <title>Laurence's Portoflio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.css" rel="stylesheet">

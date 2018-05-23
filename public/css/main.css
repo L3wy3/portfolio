@@ -1,4 +1,5 @@
 body{font-family: 'El Messiri', sans-serif;}
+p{font-weight:500;}
 h1{font-size:45px;
 letter-spacing:3px;
 font-family: 'Audiowide', cursive;
@@ -14,6 +15,9 @@ font-family: 'Permanent Marker', cursive;}
   color:#3097D1;
   border:2px solid #000000;
   border-radius:10px;
+}
+footer{
+  margin-top:50px;
 }
 #para-box-2{background-image: url('img/background.jpg');}
 #para-box-2{top:80vh;}
@@ -41,6 +45,7 @@ nav{
 .contact-page .banner-img{background-image:url('../img/IMG_1743.jpg'); width: 100%; background-size: cover; background-position: 100%;}
 .blog-page .banner-img{background-image:url('../img/IMG_1741.jpg'); width: 100%; background-size: cover; background-position: 100%;}
 .hobbies-page .banner-img{background-image:url('../img/IMG_1742.jpg'); width: 100%; background-size: cover; background-position: 100%;}
-.work-page .banner-img{background-image:url('../img/IMG_1742.jpg'); width: 100%; background-size: cover; background-position: 100%;}
-div h1{bottom:50px; left:0; color:white; text-transform: capitalize;}
+.work-page .banner-img{background-image:url('../img/portland-coast.jpg'); width: 100%; background-size: cover; background-position: 100%;}
+div h1{bottom:50px; left:50px; color:white; text-transform: capitalize;}
 .banner-img{margin-bottom:50px;height: 200px;}
+.carousel-caption{ackground-color:rgba(0,0,0,0.5); border-radius:5px;}
