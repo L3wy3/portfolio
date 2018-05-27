@@ -19,24 +19,7 @@
 <li class="nav-item">
 <a class="nav-link" href="/contact">Contact</a>
 </li>
-<div style="position:absolute;right:50px;display:inline-flex;">
-@if (Auth::check())
-<li class="nav-item">
-<a class="nav-link" href="/blog">{{ Auth::user()->name }}</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/logout">Log out</a>
-</li>
-@else
-<li class="nav-item">
-<a class="nav-link" href="/register">Register</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/login">Log in</a>
-</li>
-@endif
 </ul>
-</div>
 </nav>
 </div>
 </div>

@@ -18,6 +18,7 @@ class CreatePostsTable extends Migration
             $table->integer('user_id');
             $table->string('title');
             $table->text('body');
+            $table->string('image');
             $table->DateTime('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->DateTime('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
