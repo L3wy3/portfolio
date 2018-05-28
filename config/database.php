@@ -9,7 +9,11 @@ return [
     |
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
+<<<<<<< HEAD
     | you may use many connections at once using the Database library.
+=======
+    | you may use many connections at once using the SQLSTATE[HY000] [1045] Access denied for userDatabase library.
+>>>>>>> 2143ba06f1d493ead94ad48002ac6e5daf5a15b6
     |
     */
 
