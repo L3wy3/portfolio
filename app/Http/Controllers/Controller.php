@@ -13,8 +13,8 @@ class Controller extends BaseController
 
     public function index()
     {
-      $pagetitle = "homepage";
-      return view('home.index', compact('pagetitle'));
+    
+     return view('home.index');
     }
     public function contact()
     {
