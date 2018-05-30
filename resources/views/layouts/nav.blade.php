@@ -5,7 +5,7 @@
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav" style="margin:0 auto;">
+<ul class="navbar-nav" style="margin:0 auto; text-align:center;">
 <li class="nav-item">
 <a class="nav-link" href="/">Home</a>
 </li>
