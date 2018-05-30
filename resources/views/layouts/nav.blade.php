@@ -5,9 +5,9 @@
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
+<ul class="navbar-nav" style="margin:0 auto;">
 <li class="nav-item">
-<a class="navbar-link" href="/">Home</a>
+<a class="nav-link" href="/">Home</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="/blog">Blog</a>
