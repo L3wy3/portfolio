@@ -10,12 +10,11 @@ class ContactController extends Controller
       $pagetitle = "contact";
       return view('contact.index', compact('pagetitle'));
     }
-    public function store(){
-      $this->validate(request(), [
-        'name' => 'required',
-        'email' => 'required|email',
-        'message' => 'required|confirmed'
-      ]);
-      // \Mail::to($user)->send(new Welcome($user));
+    public function store(Request $request){
+
+      $admin->notify(ContactFormRequest $message, Admin $admin);
+		// redirect the user back
+		return redirect()->back()->with('message', 'thanks for the message! We will get back to you soon!');
+
     }
 }
