@@ -19,6 +19,7 @@ font-family: 'Permanent Marker', cursive;}
 footer{
   margin-top:50px;
 }
+.carousel-item img{width:100%;}
 #para-box-2{background-image: url('img/background.jpg');}
 #para-box-3{top:80vh; background-image: url('img/foreground-1.jpg');     }
 #para-box-6 img{width:100%; margin:0;}
