@@ -17,6 +17,7 @@ class CreateProjectsTable extends Migration
       $table->increments('id');
 	    $table->text('title');
 	    $table->text('company');
+      $table->text('img');
 	    $table->boolean('html');
 	    $table->boolean('css');
 	    $table->boolean('javasrcipt');
