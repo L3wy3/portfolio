@@ -6,17 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+  <link rel="icon" href="img/favicon.ico">
 
   <title>Laurence's Portfolio</title>
 
 
   <link href="../css/bootstrap.css" rel="stylesheet">
-  <!-- <link href="../css/css.css" rel="stylesheet">
-  <link href="../css/blog.css" rel="stylesheet"> -->
+  <!-- <link href="../css/css.css" rel="stylesheet">-->
   <link href="../css/main.css" rel="stylesheet">
-  <!-- <link href="../css/app.css" rel="stylesheet">
-  <link href="../css/media-q.css" rel="stylesheet"> -->
+  <link href="../css/media-q.css" rel="stylesheet">
   <title>Laravel</title>
 
   <!-- Fonts -->

@@ -1,3 +1,9 @@
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
 @media only screen and (min-width: 500px) {
   .nav-div{position: fixed;}
   .banner-img{height: 250px;}
@@ -6,4 +12,9 @@
 @media only screen and (min-width: 768px) {
   .nav-div{position: fixed;}
   .banner-img{height: 420px;}
+  h1{font-size:70px;}
+  body{display:block;}
+  #para-box-2{top:75vh;}
+  .display-4 {font-size: 3rem;}
+  .h-md-250 { height: 250px; }
 }
