@@ -8,17 +8,15 @@
   <meta name="author" content="">
   <link rel="icon" href="https://getbootstrap.com/favicon.ico">
 
-  <title>Blog Template for Bootstrap</title>
+  <title>Laurence's Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
+
   <link href="../css/bootstrap.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="../css/css.css" rel="stylesheet">
-  <link href="../css/blog.css" rel="stylesheet">
+  <!-- <link href="../css/css.css" rel="stylesheet">
+  <link href="../css/blog.css" rel="stylesheet"> -->
   <link href="../css/main.css" rel="stylesheet">
-  <link href="../css/app.css" rel="stylesheet">
-  <link href="../css/media-q.css" rel="stylesheet">
+  <!-- <link href="../css/app.css" rel="stylesheet">
+  <link href="../css/media-q.css" rel="stylesheet"> -->
   <title>Laravel</title>
 
   <!-- Fonts -->
