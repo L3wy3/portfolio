@@ -16,7 +16,7 @@
   </div>
 </div>
 <div id="para-box-2" class="parallax" data-speed="5"></div>
-<!-- <div id="para-box-3" class="parallax" data-speed="20"></div> -->
+<div id="para-box-3" class="parallax" data-speed="20"></div>
 <div style='height:200vh'></div>
 <div id="para-box-4" class="parralax">
 <div style='background-color:blue'>

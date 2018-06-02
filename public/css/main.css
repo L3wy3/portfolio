@@ -20,7 +20,7 @@ footer{
   margin-top:50px;
 }
 #para-box-2{background-image: url('img/background.jpg');}
-#para-box-2{top:80vh;}
+#para-box-3{top:80vh; background-image: url('img/foreground-1.jpg');     }
 #para-box-6 img{width:100%; margin:0;}
 .card-text-title{
   margin:25px auto;
