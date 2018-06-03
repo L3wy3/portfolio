@@ -10,7 +10,7 @@ class ContactController extends Controller
       $pagetitle = "contact";
       return view('contact.index', compact('pagetitle'));
     }
-    public function store(ContactFormRequest $message, Admin $admin)
+    public function mailToAdmin(ContactFormRequest $message, Admin $admin)
 	{        //send the admin an notification
 		$admin->notify(new InboxMessage($message));
 		// redirect the user back
