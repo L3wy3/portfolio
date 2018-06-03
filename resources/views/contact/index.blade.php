@@ -3,7 +3,7 @@
 @include('layouts.nav')
 @include('layouts.banner')
 <div class="container">
-  <div class="col-sm-6" style="background-color:blue; height:600px;">
+  <div class="col-sm-6">
     <form class="form-horizontal" method="POST" action="/contact">
 			{{ csrf_field() }}
 			<div class="form-group">

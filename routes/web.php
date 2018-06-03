@@ -20,7 +20,8 @@ Route::get('/blog/{post}','PostsController@show');
 //Route::post('/blog/{post}', 'CommentsController@store');
 
 Route::get('/contact', 'ContactController@index');
-Route::post('/contact', 'ContactController@store');
+// Route::post('/contact', 'ContactController@store');
+Route::post('/contact',  'ContactController@mailToAdmin');
 
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');
