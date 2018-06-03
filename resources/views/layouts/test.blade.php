@@ -12,7 +12,7 @@
 
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-8 px-0">
-          <h1 class="display-4 font-italic">Welcome to my blog</h1>
+          <h2 class="display-4 font-italic">Welcome to my blog</h2>
           <p class="lead my-3">Here is where I have documented the process of building this site from Server set up to polishing off the front end</p>
         </div>
       </div>
