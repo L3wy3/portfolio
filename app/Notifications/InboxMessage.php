@@ -1,7 +1,6 @@
 <?php
-
-namespace App\Notifications;
 use App\Http\Requests\ContactFormRequest;
+namespace App\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -22,7 +21,7 @@ protected $message;
                     ->from($this->message->email, $this->message->name)
 					->line($this->message->message);
     }
-    
+
 class InboxMessage extends Notification
 {
     use Queueable;
