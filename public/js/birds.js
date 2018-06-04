@@ -1,5 +1,3 @@
-console.log('fly pretty birds fly');
-
 			// Based on http://www.openprocessing.org/visuals/?visualID=6910
 			var Boid = function() {
 				var vector = new THREE.Vector3(),

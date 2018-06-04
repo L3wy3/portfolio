@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    @include('layouts.head')
-    <body>
+@include('layouts.head')
 @include('layouts.nav')
-<h1 style="text-align: center; margin-top: 75px; z-index: 1; position: relative;">Laurence's<br>Portfolio</h1>
+<div id="top" class="banner-outer homepage">
+  <h1 class="d-flex align-items-center justify-content-center" style="height:100vh; z-index: 1; position: relative;">Laurence's<br>Portfolio</h1>
+</div>
 <div id="para-box-1" class='parallax' data-speed='1' style="background-image: url('/img/background.jpg');height:200vh;position:fixed;top:0;width:100%;">
 	<div class='container' style='position:fixed'>
 		<div id='container' style='display:none;'></div>

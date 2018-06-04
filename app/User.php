@@ -26,8 +26,6 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-<<<<<<< HEAD
-=======
 
     public function posts()
     {
@@ -45,5 +43,4 @@ class User extends Authenticatable
       //   'user_id' => auh()->id()
       // ]);
     }
->>>>>>> 2143ba06f1d493ead94ad48002ac6e5daf5a15b6
 }

@@ -5,12 +5,11 @@
 <style media="screen">
 	.lang-block img{width:30px;}
 </style>
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-      <div class="front" style='background-image:url({{ $project->img }});'>
-      <span class="name">{{ $project->company }}</span>
-    </div>
-    <div class="back">
+<div class="">
+  <div style="background-image:url('img/{{ $project->img }}');" class="">
+    <div >
+    <div  class=""style="background-color:white; margin-top:300px;">
+			<span class="name">{{ $project->company }}</span>
 	    <p class="card-text-title">{{$project->title}}</p>
               <div class="on-off-div">
 	      	<div class="lang-block">
@@ -58,6 +57,7 @@
 	      <p class="desc-text">{{ $project->descr}}</p>
 	            </div>
             </div>
+					</div>
             </div>
 </a>
             </div>
