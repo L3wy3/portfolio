@@ -34,7 +34,7 @@ Holder.addTheme('thumb', {
   fg: '#eceeef',
   text: 'Thumbnail'
 });
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="#top"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
 

@@ -6,7 +6,7 @@
 	.lang-block img{width:30px;}
 </style>
 <div class="">
-  <div style="background-image:url('img/{{ $project->img }}');" class="">
+  <div style="background-image:url('{{ $project->img }}');" class="">
     <div >
     <div  class=""style="background-color:white; margin-top:300px;">
 			<span class="name">{{ $project->company }}</span>
