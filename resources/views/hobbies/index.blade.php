@@ -13,7 +13,7 @@
         I also got to compete in the annual Rugby 7's tournament held in Aberystwyth, The frustrating thing is that I really enjoyed playing Rugby and now wish I'd taken it up from a younger age, and I'm from Northampton so I have no excuses for not doing so.</p>
     </div>
     <div class="col-xs-12 col-md-6 padding-20-10">
-        <div id="sport" class="carousel slide" data-ride="carousel" data-interval="15000">
+        <div id="sport" class="carousel slide carousel-fade" data-ride="carousel" data-interval="15000">
             <ul class="carousel-indicators">
               <li data-target="#sport" data-slide-to="0" class="active"></li>
               <li data-target="#sport" data-slide-to="1"></li>
@@ -70,7 +70,7 @@
       </p>
     </div>
     <div class="col-xs-12 col-md-6 order-md-3 padding-20-10">
-      <div id="making" class="carousel slide" data-ride="carousel"  data-interval="15000">
+      <div id="making" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="15000">
           <ul class="carousel-indicators">
             <li data-target="#making" data-slide-to="0" class="active"></li>
             <li data-target="#making" data-slide-to="1"></li>
@@ -134,7 +134,7 @@
     <div class="col-xs-12 col-md-6 order-md-5 padding-20-10">
       <h2>Travelling</h2>
       <p class="text-black padding-20">
-        Okey that sounds terribly pretencious but my friends have invited me to tag along on some amazing trips over the last couple of years, I took loads of photos and I needed a third block to round this page out.<br><br>
+        Okey that sounds terribly pgot retencious but my friends have invited me to tag along on some amazing trips over the last couple of years, I took loads of photos and I needed a third block to round this page out.<br><br>
         I've been down the West Coast of the U.S.A from Seatlle to L.A via a road trip, which as you could probably imagine is the experience of a life time,<br>
         I've visited my Cat in Greece where my mum has decided to retire early,<br><br>
         Been on quick trips to Latvia and the Netherlands<br>
@@ -142,7 +142,7 @@
       </p>
     </div>
     <div class="col-xs-12 col-md-6 order-md-6 padding-20-10">
-      <div id="travel" class="carousel slide" data-ride="carousel"  data-interval="15000">
+      <div id="travel" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="15000">
           <ul class="carousel-indicators">
             <li data-target="#travel" data-slide-to="0" class="active"></li>
             <li data-target="#travel" data-slide-to="1"></li>

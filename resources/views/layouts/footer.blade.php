@@ -8,7 +8,7 @@
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/holder.js"></script>
-<?php if($pagetitle == 'hhomepage'){?>
+<?php if($pagetitle == 'homepage'){?>
 <script src="../js/app.js"></script>
 <?php } ?>
 <script src="../js/main.js"></script>
