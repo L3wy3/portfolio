@@ -7,10 +7,12 @@ use Illuminate\Http\Request;
 class PostsController extends Controller
 {
   public function index(){
-    return view('news.index');
+      $pagetitle = "blog";
+      return view('news.index', compact('pagetitle'));
     }
     public function show(){
-    return view('news.show');
+    $pagetitle = "blog";
+    return view('news.show', compact('posts'));
     }
     public function create(){
     return view('news.create');
