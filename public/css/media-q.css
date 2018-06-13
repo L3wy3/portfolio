@@ -10,6 +10,8 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .padding-post-left{padding: 350px 150px 0 0;}
+  .padding-post-right{padding: 350px 0 0 150px;}
   .nav-div{position: fixed;background-color:rgba(0,0,0,0);}
   .banner-img{height: 420px;}
   h1{font-size:70px;}
