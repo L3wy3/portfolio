@@ -7,7 +7,7 @@
       {{ $post->body }}
     </div>
     <div class="col-sm-6 post-inner">
-      <img>
+      <img src='{{ $post->img }}'>
     </div>
   </div>
   <hr>

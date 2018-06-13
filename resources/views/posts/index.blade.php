@@ -9,7 +9,7 @@
 @include ('posts.post')
 <?php $i++;?>
 @endforeach
-<div class="text-center">
+<div class="text-center" style="margin:20px 0;">
   {!! $posts->links(); !!}
 </div>
 @endsection

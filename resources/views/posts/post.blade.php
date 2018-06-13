@@ -5,5 +5,5 @@
       <p class="blog-post-meta">{{ $post->created_at->toFormattedDateString() }} by Laurence</p>
     </div>
   </div>
-  <p class="padding-20-0">{{  str_limit($post->body, 250) }} <a href='/blog/{{ $post->id}}'>Read more</a></p>
+  <p class="padding-20-0">{{  str_limit($post->body, 250) }} <a href='/blog/{{ $post->id}}'>Read&nbsp;more</a></p>
 </div>

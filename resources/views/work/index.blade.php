@@ -19,8 +19,8 @@
       </div>
       <div class="col-sm-4">
         <p>Misc</p>
-        <a href="?tag=framework" class="work-tag">Framework</a>
-        <a href="?tag=front-end" class="work-tag">Front end</a>
+        <a href="?tag=framework" class="work-tag">Back-end</a>
+        <a href="?tag=front-end" class="work-tag">Front-end</a>
       </div>
     </div>
     <div class="row">
