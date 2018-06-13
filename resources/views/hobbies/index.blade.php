@@ -4,7 +4,7 @@
 @include('layouts.banner')
 <div class="container">
   <div class="row hobbies-page">
-    <div class="col-xs-12 col-md-6 padding-20-10">
+    <div class="c col-md-12 col-lg-6 padding-20-10">
       <h2>Sport</h2>
       <p class="text-black padding-20">
         Over the years I've tried my hand at a few sports with varying degrees of success, from abysmal all the way up to average.<br>
@@ -12,7 +12,7 @@
         very original I know, we somehow still manage to get a dozen or so of us together for a game or tournament or two each year.<br><br>
         I also got to compete in the annual Rugby 7's tournament held in Aberystwyth, The frustrating thing is that I really enjoyed playing Rugby and now wish I'd taken it up from a younger age, and I'm from Northampton so I have no excuses for not doing so.</p>
     </div>
-    <div class="col-xs-12 col-md-6 padding-20-10">
+    <div class="col-md-12 col-lg-6 padding-20-10">
         <div id="sport" class="carousel slide carousel-fade" data-ride="carousel" data-interval="15000">
             <ul class="carousel-indicators">
               <li data-target="#sport" data-slide-to="0" class="active"></li>
@@ -58,7 +58,7 @@
             </a>
         </div>
     </div>
-    <div class="col-xs-12 col-md-6 order-md-4  padding-20-10">
+    <div class="col-md-12 col-lg-6 order-lg-4  padding-20-10">
       <h2>Making</h2>
       <p class="text-black padding-20">
         I've always had a passion for building things and that has led me to spending far too much time and money on this pursuit, I'm quite proud of my first real attempt at a carpentery project,<br>
@@ -69,7 +69,7 @@
         That might be a while however as my main project at the moment is making a physical manifestation of an Alexa like IoT assistant, there are quite a few open source versions out there and I like the idea of having a Jeeves like valet around the house.
       </p>
     </div>
-    <div class="col-xs-12 col-md-6 order-md-3 padding-20-10">
+    <div class="col-md-12 col-lg-6 order-md-3 padding-20-10">
       <div id="making" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="15000">
           <ul class="carousel-indicators">
             <li data-target="#making" data-slide-to="0" class="active"></li>
@@ -131,7 +131,7 @@
           </a>
       </div>
     </div>
-    <div class="col-xs-12 col-md-6 order-md-5 padding-20-10">
+    <div class="col-md-12 col-lg-6 order-md-5 padding-20-10">
       <h2>Travelling</h2>
       <p class="text-black padding-20">
         Okey that sounds terribly pgot retencious but my friends have invited me to tag along on some amazing trips over the last couple of years, I took loads of photos and I needed a third block to round this page out.<br><br>
@@ -141,7 +141,7 @@
         And last but not least the exotic city of Glasgow, I was talked into joining a team to appear on the BBC show 'Eggheads' and it's filmed in Glasgow, perhaps November wasn't the best time of year to go.
       </p>
     </div>
-    <div class="col-xs-12 col-md-6 order-md-6 padding-20-10">
+    <div class="col-md-12 col-lg-6 order-md-6 padding-20-10">
       <div id="travel" class="carousel slide carousel-fade" data-ride="carousel"  data-interval="15000">
           <ul class="carousel-indicators">
             <li data-target="#travel" data-slide-to="0" class="active"></li>

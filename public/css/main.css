@@ -188,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 50px;
 }
 .nav-div{
+  background-color:#f8f9fa;
   width:100%;
   top:0;
   left:0;
@@ -199,6 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   width:50px;
   background-color:white;
 }
+.homepage{background-image: url('/img/parralax/background.jpg');background-size:cover;}
 /*
  * Footer
  */
