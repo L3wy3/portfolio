@@ -16,7 +16,7 @@
 		<script src="obj/Bird.js"></script>
 		<script src="js/birds.js"></script>
   </div>
-
+@include('layouts.footer')
 <style>
 canvas{position: fixed;top:0;}
 html{overflow-y:hidden;}

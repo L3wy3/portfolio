@@ -9,8 +9,8 @@ font-family: 'Permanent Marker', cursive;}
   height: 100vh;
   z-index: 1;
   position: relative;
-  color: #FFFFFF;
-  text-shadow: 5px 5px #000000;
+  color: #000000;
+  text-shadow: 4px 3px #fff;
   text-align: center;
   left:0;
   bottom:0;
@@ -36,7 +36,7 @@ footer{
 #para-box-3{top:80vh; background-image: url('img/foreground-1.jpg');     }
 #para-box-6 img{width:100%; margin:0;}
 .card-text-title{
-  margin:25px auto;
+  margin:5px auto;
   text-transform:uppercase;
   text-align:center;
 }
@@ -85,9 +85,9 @@ div h1{bottom:50px; left:50px; color:white; text-transform: capitalize; position
 .blog-header-logo:hover {
   text-decoration: none;
 }
-
+.work-div div a:hover{text-decoration: none;}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif;*/
 }
 
 
@@ -193,6 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   top:0;
   left:0;
   z-index:2;
+  position: relative;
 }
 .link-up{
   font-weight:800;

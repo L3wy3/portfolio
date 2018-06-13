@@ -6,7 +6,7 @@
 .lang-block img{width:30px;}
 </style>
 <p class="card-text-title">{{$project->title}}</p>
-<p class="card-text-title" style="margin:5px 0;">{{ $project->company }}</p>
+<p class="card-text-title" style="font-size:0.8em; margin:5px 0;">{{ $project->company }}</p>
 <div class="">
 	<img src='{{ $project->img }}' class="" style="width:100%; border:1px solid black; border-radius:10px;">
 </div>
