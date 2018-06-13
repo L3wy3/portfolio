@@ -1,3 +1,6 @@
+@include('layouts.head')
+<body>
+@include('layouts.nav')
 @include('layouts.banner')
 @extends('layouts.test')
 @section('content')

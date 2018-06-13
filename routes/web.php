@@ -26,7 +26,7 @@ Route::post('/contact',  'ContactController@mailToAdmin');
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');
 
-Route::get('/work', 'WorkController@index');
+Route::get('/work', 'WorkController@indexx');
 
 Route::get('/hobbies', 'HobbiesController@index');
 

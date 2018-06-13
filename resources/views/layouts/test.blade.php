@@ -5,7 +5,6 @@
 <div class="row flex-nowrap justify-content-between align-items-center">
 
 </div>
-@include('layouts.nav')
 </header>
 
 
