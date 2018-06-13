@@ -1,5 +1,5 @@
 <div class="blog-post">
-  <div style="background-image:url('{{ $post->img }}'); background-size:cover; padding: 350px 150px 0 0;">
+  <div style="background-image:url('{{ $post->img }}'); background-size:cover; @if($i == 1) padding: 350px 150px 0 0; @else padding: 350px 0 0 150px; @endif">
     <div style="max-width:450px;" class="blog-container @if($i == 1)blog-container-even @else blog-container-odd @endif    ">
       <a href='/blog/{{ $post->id}}'> <h2 class="blog-post-title">{{ $post->title }}</h2></a>
       <p class="blog-post-meta">{{ $post->created_at->toFormattedDateString() }} by Laurence</p>
