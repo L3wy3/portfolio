@@ -9,7 +9,7 @@
       <div class="col-sm-4">
         <p>Agencies</p>
         <a href="?agency=WeAreBigMedia" class="work-tag">We Are Big Media</a>
-        <a href="?agency=tfa" class="work-tag">TFA</a>
+        <a href="?agency=TFA" class="work-tag">TFA</a>
       </div>
       <div class="col-sm-4">
         <p>Year</p>
