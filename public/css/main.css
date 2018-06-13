@@ -1,0 +1,305 @@
+body{font-family: 'El Messiri', sans-serif;}
+p{font-weight:600;}
+h1{font-size:45px;
+letter-spacing:3px;
+font-family: 'Audiowide', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Permanent Marker', cursive;}
+.homepage h1{
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+  color: #000000;
+  text-shadow: 4px 3px #fff;
+  text-align: center;
+  left:0;
+  bottom:0;
+}
+.text-block-div{margin:-1px 5px 0 5px;}
+.card-date{text-align:center;}
+.card-text{text-transform:uppercase;}
+.front{border:2px solid #000000; border-radius:10px;}
+.front .name{border-radius: 0 5px 0 5px;}
+.desc-text{padding:15px;}
+.back{
+  color:#3097D1;
+  border:2px solid #000000;
+  border-radius:10px;
+}
+footer{
+  margin-top:50px;
+}
+.pos-rel{position: relative;}
+.zindex10{z-index: 10;}
+.carousel-item img{width:100%;}
+#para-box-2{background-image: url('img/background.jpg');}
+#para-box-3{top:80vh; background-image: url('img/foreground-1.jpg');     }
+#para-box-6 img{width:100%; margin:0;}
+.card-text-title{
+  margin:5px auto;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+nav{
+  font-size: 18px;
+  font-weight: 500;    </div>
+
+}
+.pos-r{position:relative;}    </div>
+
+.pos-a{position:absolute;}
+
+.page-link{font-weight:700;}
+
+.height-100{height:100%;}
+.padding-l-50{padding-left:50px;}
+.padding-20{padding:20px;}
+.padding-20-0{padding:20px 0;}
+.contact-page .banner-img{background-image:url('../img/IMG_1743.jpg'); width: 100%; background-size: cover; background-position: 100%;}
+.blog-page .banner-img{background-image:url('../img/IMG_1741.jpg'); width: 100%; background-size: cover; background-position: 100%;}
+.hobbies-page .banner-img{background-image:url('../img/IMG_1742.jpg'); width: 100%; background-size: cover; background-position: 100%;}
+.padding-20-10{padding:20px 10px;}
+.work-page .banner-img{background-image:url('../img/portland-coast.jpg'); width: 100%; background-size: cover; background-position: 100%;}
+div h1{bottom:50px; left:50px; color:white; text-transform: capitalize; position: absolute;}
+.banner-img{margin-bottom:50px;height: 200px;}
+.carousel-caption{ackground-color:rgba(0,0,0,0.5); border-radius:5px;}
+
+.blog-container-odd{text-align:left; background-color: white; border-radius:  0 50px 0 0;}
+.blog-container-even{text-align:right;background-color: white; border-radius: 50px 0 0 0;}
+.carousel-item:hover .carousel-caption{opacity:0.2;}
+.carousel-caption{transition: opacity 1s;}
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+.work-div div a:hover{text-decoration: none;}
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif;*/
+}
+
+
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+.carousel-caption p{
+  font-weight:600;
+  padding:10px;
+}
+.navbar{
+  font-weight:700;
+  border-radius: 0 0 40px 40px;
+  padding: 15px 50px;
+}
+.nav-div{
+  background-color:#f8f9fa;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:3;
+  position: relative;
+}
+.link-up{
+  font-weight:800;
+  height:50px;
+  width:50px;
+  background-color:white;
+}
+.homepage{background-image: url('/img/parralax/background.jpg');background-size:cover;}
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+.text-black{color:#000000;}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-link{
+  font-weight: 600;
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.post-inner img{
+  width: 100%;
+  height: 240px;
+  background-image: url('/img/server.jpg');
+  display: inline-block;
+  background-size: cover;
+  border-radius: 20px;
+}
+.blog-container{padding:20px;}
+
+.work-div{
+  border: 2px solid black;
+  border-left:0;
+  border-right:0;
+  padding: 5px;
+}
+
+.work-tag{
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: black;
+  font-weight: 600;
+  margin: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.work-tag:hover{
+  color:black;
+}
+
+.project-hide:hover{color:black; text-decoration: none;}
+.project-hide p:hover{ text-decoration: none;}
