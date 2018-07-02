@@ -4,12 +4,12 @@
 @include('layouts.banner')
 <div id='project-div' class="project-div">
   <div class='container'>
-    <h2 style="text-align:center; margin:50px 0;">Here is a selection of projects I've either done soley or been the main developer of over the last few years, you can sort them by various tags</h2>
+    <h2 style="text-align:center; margin:50px 0;">Here is a selection of projects I've either done solely or been the main developer of over the last few years, you can sort them by various tags</h2>
     <div class="row" style="display:flex; margin:50px 0;">
       <div class="col-sm-4">
         <p>Agencies</p>
         <a href="?agency=WeAreBigMedia" class="work-tag">We Are Big Media</a>
-        <a href="?agency=tfa" class="work-tag">TFA</a>
+        <a href="?agency=TFA" class="work-tag">TFA</a>
       </div>
       <div class="col-sm-4">
         <p>Year</p>
